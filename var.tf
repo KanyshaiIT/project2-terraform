@@ -6,25 +6,25 @@ variable region {    #what type of variable we can use
 variable cidr_block {   
     type = string
     description = "Provide cidr block"
-    default = ""
+    default = "10.0.0.0/16"
 }  
 
 variable subnet1_cidr {   
     type = string
     description = "Provide cidr block"
-    default = ""
+    default = "10.0.1.0/24"
 }  
 
 variable subnet2_cidr {   
     type = string
     description = "Provide cidr block"
-    default = ""
+    default = "10.0.2.0/24"
 }  
 
 variable subnet3_cidr {   
     type = string
     description = "Provide cidr block"
-    default = ""
+    default = "10.0.3.0/24"
 }  
 
 variable vpc_name {
@@ -35,7 +35,7 @@ variable vpc_name {
 variable instance_type {   
     type = string
     description = "Provide instance type"
-    default = ""
+    default = "t2.large"
 }
 
 variable key_name {
